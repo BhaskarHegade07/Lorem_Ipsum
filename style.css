@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+li {
+  list-style-type: none;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+
+}
+
+a {
+    list-style-type: none;
+    color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 60px;
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.logo {
+  width: 80px;
+  color: black;
+  /* list-style-type: none; */
+}
+
+.logo img {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  font-weight: 600;
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  margin: 10px;
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.icons i {
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid;
+  color: black;
+  /* list-style-type: none; */
+  text-decoration: none;
+}
+
+.main {
+  height: 100vh;
+  background-image: url("heroimg.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  background-image: linear-gradient(90deg, #000, #737373);
+  padding: 10px 40px;
+}
+
+.row {
+  background-color: #b2b2b2;
+  display: flex;
+  padding: 40px;
+  gap: 60px;
+  text-align: center;
+}
+
+.card-container {
+  padding: 50px;
+  /* background-color: rgb(232, 210, 218); */
+  background-color: rgb(230, 222, 232);
+}
+
+h1 {
+  margin: 40px 0;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+}
+
+.card h3 {
+  padding: 20px 0;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+/* Responsive */
+@media (max-width: 860px) {
+  ul {
+    display: none;
+  }
+
+  li {
+    padding: 10px 0;
+    width: 100%;
+  }
+  .row {
+    display: block;
+    gap: 50px;
+  }
+
+  .col {
+    padding: 17px 0;
+  }
+
+  .left {
+    text-align: center;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: center;
+  }
+}
+
+@media (max-width: 780px) {
+  .cards {
+    display: block;
+  }
+}
